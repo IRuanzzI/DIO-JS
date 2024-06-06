@@ -1,17 +1,17 @@
-const conjuntodeEntradas = [5, 50, 10, 98, 23]
+const notas = [10,10,3,10]
 
-let i = 0; 
-
+ let i = 0
 
 function gets(){
-    const valor = conjuntodeEntradas[i]
+    const nota = notas[i]
     i++
-    return  valor
-
+    return nota
 }
+
 
 function print(texto){
     console.log(texto)
 }
+
 
 module.exports = {gets : gets ,print: print}
